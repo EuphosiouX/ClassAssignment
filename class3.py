@@ -5,6 +5,9 @@ class Person:
         self.__name = name
         self.__address = address
     
+    def Person(self, name:str, address:str):
+        pass
+
     # Fetch the  name
     def getName(self)->str:
         return (self.__name)
@@ -30,6 +33,9 @@ class Student(Person):
         self.__numCourses = numCourses
         self.__courses = courses
         self.__grades = grades
+
+    def Student(self, name:str, address:str):
+        pass
 
     # Add course(s) / grade(s) / both for student
     def addCourseGrade(self, course:str ,grade:int):
@@ -60,6 +66,9 @@ class Teacher(Person):
         super().__init__(name, address)
         self.__numCourses = numCourses
         self.__courses = courses
+
+    def Teacher(self, name:str, address:str):
+        pass
 
     # Add course(s) for teacher
     def addCourse(self, course:str)->bool:
