@@ -5,6 +5,15 @@ class Circle:
         self.__radius = radius 
         self.__color = color
 
+    def Circle(self):
+        pass
+
+    def Circle(self, radius:float):
+        pass
+
+    def Circle(self, radius:float, color:str):
+        pass
+
     # Fetch the current radius
     def getRadius(self)->float:
         return (self.__radius)
@@ -37,6 +46,18 @@ class Cylinder(Circle):
     def __init__(self, height:float=1.0, radius:float=1.0, color:str="Red"):
         self.__height = height
         super().__init__(radius, color)
+
+    def Cylinder(self):
+        pass
+
+    def Cylinder(self, radius:float):
+        pass
+
+    def Cylinder(self, radius:float, color:str):
+        pass
+
+    def Cylinder(self, radius:float, color:str, height:float):
+        pass
 
     # Fetch the current height
     def getHeight(self)->float:
